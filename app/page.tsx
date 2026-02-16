@@ -14,7 +14,7 @@ interface PredictionResult {
   detections: Detection[]
   imagedetect: string
 }
-
+//T
 export default function Home() {
   const [result, setResult] = useState<PredictionResult | null>(null)
   const [loading, setLoading] = useState(false)
